@@ -1,6 +1,8 @@
 # AI Chatbot LCD
 An AI chatbot that communicates through an LCD display connected to an Arduino on Windows.
 
+https://github.com/Cody-bev/AI/blob/main/Wire_Sketch.jpg
+
 ## Prerequisites
 - Arduino (configured for COM9)
 - Python (added to PATH)
@@ -10,6 +12,8 @@ An AI chatbot that communicates through an LCD display connected to an Arduino o
 - Groq API key
 
 ## Hardware Setup
+### The Circuit:
+![Here is the circuit](./Wire_Sketch.jpg "Here is the circuit")
 1. Connect Arduino to laptop
 2. Configure Arduino to COM9:
    - Device Manager → Ports → Arduino Uno → Properties → Port Settings → Advanced → COM Port Number (9)
